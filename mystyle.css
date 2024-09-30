@@ -57,6 +57,10 @@ article {
     color: rgb(160, 160, 160);
 }
 
+homeArticle {
+    border-height: 350px;
+}
+
 details {
     color: rgb(160, 160 ,160);
 }
