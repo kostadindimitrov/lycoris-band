@@ -30,6 +30,7 @@ header {
     font-family: fantasy;
     color: rgb(160, 160, 160);
     border-radius: 15px;
+    border-height: auto;
 }
 
 nav {
