@@ -109,3 +109,21 @@ section::after {
     padding-bottom: 15px;
     color: black;
 }
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(15, 15, 15);
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-button {
+    color: black;
+    background: black;
+}
