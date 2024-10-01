@@ -120,6 +120,7 @@ section::after {
     margin: 20px;
     background: black;
     padding-left: 10px;
+    width: 80%;
 }
 
 .row {
