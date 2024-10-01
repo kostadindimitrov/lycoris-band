@@ -93,6 +93,12 @@ section::after {
     text-align: center;
 }
 
-img {
+.fImg {
     height: 25px;
 }
+
+.nImg {
+    height: 15px;
+    padding-right: 3px;
+    padding-top: 3px;
+}                          
