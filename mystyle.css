@@ -119,6 +119,7 @@ section::after {
     display: grid;
     margin: 20px;
     background: black;
+    padding-left: 10px;
 }
 
 .row {
