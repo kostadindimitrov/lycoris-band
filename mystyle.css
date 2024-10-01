@@ -102,3 +102,10 @@ section::after {
     padding-right: 3px;
     padding-top: 3px;
 }                          
+
+.copyright {
+    text-size-adjust: 30px;
+    height: 3px;
+    padding-bottom: 15px;
+    color: black;
+}
