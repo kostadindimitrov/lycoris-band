@@ -110,6 +110,34 @@ section::after {
     color: black;
 }
 
+.selectedPage {
+    text-decoration: underline;
+    color: rgb(160, 160, 160)
+}
+
+.container {
+    display: grid;
+    margin: 30px;
+    background: black;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
+    gap: 10px; /* Space between columns */
+    padding: 10px;
+    background: black;
+}
+
+.column {
+    padding: 10px;
+    padding-left: 30px;
+    background: rgb(10, 10, 10);
+    border-radius: 15px;
+    height: 350px;
+    width: 250px;
+}
+
 ::-webkit-scrollbar {
     width: 12px;
 }
