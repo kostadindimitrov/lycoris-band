@@ -34,7 +34,9 @@ header {
 
 nav {
     float: left;
-    width: 30%;
+    /*width: 15%;*/
+    width: max-content(150px);
+    width: min-content(50px);
     height: 500px;
     background: rgb(10, 10, 10);
     padding: 20px;
