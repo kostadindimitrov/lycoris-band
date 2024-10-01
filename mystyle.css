@@ -92,3 +92,7 @@ section::after {
 .PE_title {
     text-align: center;
 }
+
+img {
+    height: 25px;
+}
