@@ -34,11 +34,13 @@ header {
 
 nav {
     float: left;
-    width: 15%;
+    width: 30%;
     height: 500px;
     background: rgb(10, 10, 10);
     padding: 20px;
     border-radius: 15px;
+    font-size: 70%;
+    width: 0 auto;
 }
 
 nav ul {
@@ -117,18 +119,22 @@ section::after {
 
 .container {
     display: grid;
-    margin: 20px;
     background: black;
-    padding-left: 10px;
-    width: 80%;
+    width: 0 auto;
+    margin: 0 auto;
+    padding-left: auto;
 }
 
-.row {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
-    gap: 10px; /* Space between columns */
-    padding-bottom: 20px;
-    background: black;
+@media (max-width: 1024px) {
+    .row {
+        grid-template-columns: repeat(2, 1fr); /* Two columns for medium-sized devices */
+    }
+}
+
+@media (max-width: 768px) {
+    .row {
+        grid-template-columns: repeat(1, 1fr); /* One column for small devices */
+    }
 }
 
 .column {
