@@ -59,6 +59,7 @@ article {
     font-family: fantasy;
     border-radius: 15px;
     color: rgb(160, 160, 160);
+    font-size: 100%;
 }
 
 details {
@@ -128,6 +129,18 @@ section::after {
     padding-left: auto;
 }
 
+.column {
+    border-radius: 15px;
+    background: rgb(10, 10, 10);
+    margin: 30px;
+    width: 80%;
+    height: 400px;
+    text-align: center;
+    color: rgb(160, 160 ,160);
+}
+
+
+
 @media (max-width: 1024px) {
     .row {
         grid-template-columns: repeat(2, 1fr); /* Two columns for medium-sized devices */
@@ -139,11 +152,13 @@ section::after {
         grid-template-columns: repeat(1, 1fr); /* One column for small devices */
     }
 }
-.column {
-    padding: 10px;
-    padding-left: 30px;
-    background: rgb(10, 10, 10);
+
+.merchImg {
     border-radius: 15px;
+    margin: 30px;
+    width: 80%;
+    height: 250px;
+    text-align: center;
 }
 
 .column:first-child {
@@ -167,3 +182,4 @@ section::after {
     color: black;
     background: black;
 }
+
